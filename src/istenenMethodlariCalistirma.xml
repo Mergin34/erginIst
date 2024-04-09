@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="sirali method calistirma">
+    <test name="sirali method">
+        <classes>
+            <class name="tests2.Test21">
+                <methods>
+                    <include name="ilgili method"></include>
+                </methods>
+            </class>
+            <class name="tests.Test17">
+                <methods>
+                    <exclude name="ilgili method"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
